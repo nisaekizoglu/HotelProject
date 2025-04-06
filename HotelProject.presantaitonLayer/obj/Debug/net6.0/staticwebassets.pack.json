@@ -1,0 +1,457 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\HotelProject.presantaitonLayer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HotelProject.presantaitonLayer.oet5yokh2p.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\css\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\css\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\css\\vendor.css"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\about-img1.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\about-img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\about-img2.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\about-img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\about-img3.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\about-img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\chocolat\\close.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\chocolat\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\chocolat\\fullscreen-black.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\chocolat\\fullscreen-black.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\chocolat\\fullscreen.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\chocolat\\fullscreen.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\chocolat\\left.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\chocolat\\left.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\chocolat\\loader.gif",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\chocolat\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\chocolat\\right.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\chocolat\\right.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\commentor-item1.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\commentor-item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\commentor-item2.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\commentor-item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\commentor-item3.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\commentor-item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\item1.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\item1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\item2.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\item2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\item3.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\item3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\main-logo-footer.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\main-logo-footer.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\main-logo.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\main-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\pattern1.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\pattern1.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\pattern2.png",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\pattern2.png"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\post1.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\post1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\post2.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\post2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\post3.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\post3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\post4.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\post4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\post5.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\post5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\room1.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\room1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\room2.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\room2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\room3.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\room3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\slider-image.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\slider-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\slider-image1.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\slider-image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\team1.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\team1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\team2.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\team2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\team3.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\team3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\team4.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\team4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\team5.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\team5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\team6.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\team6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\images\\video.jpg",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\images\\video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\index.html",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\js\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\js\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\js\\jquery-1.11.0.min.js",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\js\\jquery-1.11.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\js\\script.js",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\readme.txt",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\NİSA\\Source\\Repos\\HotelProject\\HotelProject.presantaitonLayer\\wwwroot\\mellow-1.0.0\\style.css",
+      "PackagePath": "staticwebassets\\mellow-1.0.0\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HotelProject.presantaitonLayer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.HotelProject.presantaitonLayer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.HotelProject.presantaitonLayer.props",
+      "PackagePath": "build\\HotelProject.presantaitonLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.HotelProject.presantaitonLayer.props",
+      "PackagePath": "buildMultiTargeting\\HotelProject.presantaitonLayer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.HotelProject.presantaitonLayer.props",
+      "PackagePath": "buildTransitive\\HotelProject.presantaitonLayer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
