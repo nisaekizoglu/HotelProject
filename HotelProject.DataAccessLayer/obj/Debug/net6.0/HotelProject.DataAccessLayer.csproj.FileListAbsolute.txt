@@ -15,3 +15,4 @@ C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.DataAccessLayer\obj\Debug\
 C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.DataAccessLayer\obj\Debug\net6.0\ref\HotelProject.DataAccessLayer.dll
 C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.DataAccessLayer\bin\Debug\net6.0\HotelProject.DataAccessLayer.runtimeconfig.json
 C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.genruntimeconfig.cache
+C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.DataAccessLayer\obj\Debug\net6.0\HotelProject.DataAccessLayer.sourcelink.json

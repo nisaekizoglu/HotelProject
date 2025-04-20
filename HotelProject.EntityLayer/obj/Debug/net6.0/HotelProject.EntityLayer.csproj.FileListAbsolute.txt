@@ -12,3 +12,4 @@ C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.EntityLayer\obj\Debug\net6
 C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.EntityLayer\obj\Debug\net6.0\HotelProject.EntityLayer.pdb
 C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.EntityLayer\obj\Debug\net6.0\HotelProject.EntityLayer.genruntimeconfig.cache
 C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.EntityLayer\obj\Debug\net6.0\ref\HotelProject.EntityLayer.dll
+C:\Users\NİSA\Source\Repos\HotelProject\HotelProject.EntityLayer\obj\Debug\net6.0\HotelProject.EntityLayer.sourcelink.json

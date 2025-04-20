@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.EntityLayer", "HotelProject.EntityLayer\HotelProject.EntityLayer.csproj", "{C3D522C7-6A0D-456D-B4E7-F6C6C89D0F71}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.DataAccessLayer", "HotelProject.DataAccessLayer\HotelProject.DataAccessLayer.csproj", "{33DAB22D-AC9B-4C3C-9A34-0B462CBD8784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelProject.presantaitonLayer", "HotelProject.presantaitonLayer\HotelProject.presantaitonLayer.csproj", "{ECAC921B-9C27-4789-B0F4-0E13C1FFB18F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA0F25F9-D2FF-4360-A24B-0D81C320A5D9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{33DAB22D-AC9B-4C3C-9A34-0B462CBD8784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33DAB22D-AC9B-4C3C-9A34-0B462CBD8784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33DAB22D-AC9B-4C3C-9A34-0B462CBD8784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAC921B-9C27-4789-B0F4-0E13C1FFB18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAC921B-9C27-4789-B0F4-0E13C1FFB18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAC921B-9C27-4789-B0F4-0E13C1FFB18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAC921B-9C27-4789-B0F4-0E13C1FFB18F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
