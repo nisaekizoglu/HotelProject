@@ -1,0 +1,61 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelProjectMauiApp.Pages.MainPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="25">
+
+            <!-- Otel Başlığı -->
+            <Label Text="Hotel Mellow"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Your Gateway To Serenity"
+                   FontSize="20"
+                   HorizontalOptions="Center"
+                   TextColor="Gray"/>
+
+            <!-- Görsel -->
+            <Image Source="hotel_room.jpg" Aspect="AspectFill" HeightRequest="200" />
+
+            <!-- Rezervasyon Kutusu -->
+            <Frame CornerRadius="20" Padding="20" BackgroundColor="#f4f1ee" HasShadow="True">
+
+                <StackLayout Spacing="15">
+                    <Label Text="Check Availability"
+                           FontSize="22"
+                           FontAttributes="Bold" />
+
+                    <!--<DatePicker x:Name="CheckInDate" 
+                                Date="{x:Static sys:DateTime.Now}" 
+                                Format="D"
+                                />
+                    <DatePicker x:Name="CheckOutDate" 
+                                Date="{x:Static sys:DateTime.Now}" 
+                                Format="D"
+                                />-->
+
+                    <Entry x:Name="RoomCount" Placeholder="Rooms" Keyboard="Numeric" />
+                    <Entry x:Name="GuestCount" Placeholder="Guests" Keyboard="Numeric" />
+
+                    <Button Text="Check Availability"
+                            BackgroundColor="#E1D5C9"
+                            TextColor="Black"
+                            Clicked="OnCheckAvailabilityClicked"/>
+
+                    <!--<Button Text="Explore Rooms"
+        BackgroundColor="#F6F1EB"
+        TextColor="Black"
+        CornerRadius="10"
+        Clicked="OnExploreRoomsClicked"/>-->
+
+                </StackLayout>
+
+            </Frame>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

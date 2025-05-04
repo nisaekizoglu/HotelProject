@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelProjectMauiApp.Pages.RegisterPage"
+             BackgroundColor="#fff9f5">
+    <!-- Hafif pembe/bej tonu -->
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Kayıt Ol" FontSize="24" TextColor="#d88a8a" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="White" Padding="25" CornerRadius="20" WidthRequest="300" HasShadow="True">
+                <VerticalStackLayout Spacing="15">
+                    <Entry x:Name="NameEntry" Placeholder="Ad Soyad" BackgroundColor="#fff0f5" />
+                    <Entry x:Name="EmailEntry" Placeholder="E-posta" BackgroundColor="#fff0f5" />
+                    <Entry x:Name="PasswordEntry" Placeholder="Şifre" IsPassword="True" BackgroundColor="#fff0f5" />
+
+                    <Button Text="Kayıt Ol" Clicked="OnRegisterClicked"
+                            BackgroundColor="#d4af37" TextColor="White"
+                            CornerRadius="10" FontAttributes="Bold"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Button Text="Giriş Yap" Clicked="OnNavigateToLogin"
+                    BackgroundColor="#c38184" TextColor="White"
+                    WidthRequest="150" CornerRadius="10"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+

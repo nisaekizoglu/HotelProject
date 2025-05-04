@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HotelProjectMauiApp.Pages.LoginPage"
+             
+             BackgroundColor="#fdf6f0">
+    <!-- Bej arka plan -->
+
+    <ScrollView>
+        <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+            <Label Text="Hoş Geldiniz" FontSize="24" TextColor="#c38184" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+            <Frame BackgroundColor="White" Padding="25" CornerRadius="20" WidthRequest="300" HasShadow="True">
+                <VerticalStackLayout Spacing="15">
+                    <Entry x:Name="EmailEntry" Placeholder="E-posta" BackgroundColor="#fff0f5" />
+                    <Entry x:Name="PasswordEntry" Placeholder="Şifre" IsPassword="True" BackgroundColor="#fff0f5" />
+
+                    <Button Text="Giriş Yap" Clicked="OnLoginClicked"
+                            BackgroundColor="#d4af37" TextColor="White"
+                            CornerRadius="10" FontAttributes="Bold"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Label Text="Hesabınız yok mu?" HorizontalOptions="Center" TextColor="#a47148" />
+            <Button Text="Kayıt Ol" Clicked="OnNavigateToRegister"
+                    BackgroundColor="#c38184" TextColor="White"
+                    WidthRequest="150" CornerRadius="10"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+

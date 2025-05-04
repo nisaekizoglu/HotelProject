@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HotelProject.presantaitonLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7edc89705c8d2a5cef7698ac8b963a958f83a5f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+002b3e37b9e2c5aa601bf93783287a9e8de26378")]
 [assembly: System.Reflection.AssemblyProductAttribute("HotelProject.presantaitonLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HotelProject.presantaitonLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,7 +19,8 @@ namespace HotelProject.DataAccessLayer.Repositories
 
         public void Add(T entity)
         {
-            throw new NotImplementedException();
+            _context.Set<T>().Add(entity);
+            _context.SaveChanges();
         }
 
         public void Delete(int id)
@@ -40,7 +41,8 @@ namespace HotelProject.DataAccessLayer.Repositories
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            _context.Set<T>().Update(entity);
+            _context.SaveChanges();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace HotelProject.DataAccessLayer.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-AFU114N\\SQLEXPRESS;initial Catalog=HotelProjectDb;integrated Security=true");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-AFU114N\\SQLEXPRESS;initial Catalog=HotelProjectDb;integrated Security=true;TrustServerCertificate=True");
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<About> Abouts { get; set; }
