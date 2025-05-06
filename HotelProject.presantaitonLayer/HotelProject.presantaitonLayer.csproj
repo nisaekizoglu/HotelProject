@@ -7,14 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\sogo-master\.DS_Store" />
+    <None Include="wwwroot\sogo-master\fonts\.DS_Store" />
+    <None Include="wwwroot\sogo-master\fonts\ionicons\.DS_Store" />
+    <None Include="wwwroot\sogo-master\images\.DS_Store" />
+    <None Include="wwwroot\sogo-master\js\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.15">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HotelProject.DataAccessLayer\HotelProject.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\HotelProject.Shared.Dtos\HotelProject.Shared.Dtos.csproj" />
   </ItemGroup>
 
 </Project>

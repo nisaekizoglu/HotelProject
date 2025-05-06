@@ -11,7 +11,7 @@ namespace HotelProjectMauiApp
             //BaseUrl = DeviceInfo.Platform == DevicePlatform.Android ? "http://10.0.2.2/api" : "http://localhost:7237/api";
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new CategoriesPage());
         }
     }
 }

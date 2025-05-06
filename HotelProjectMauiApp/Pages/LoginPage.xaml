@@ -8,22 +8,22 @@
 
     <ScrollView>
         <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-            <Label Text="Hoş Geldiniz" FontSize="24" TextColor="#c38184" FontAttributes="Bold" HorizontalOptions="Center"/>
+            <Label Text="Hoş Geldiniz" FontSize="24" TextColor="#000" FontAttributes="Bold" HorizontalOptions="Center"/>
 
             <Frame BackgroundColor="White" Padding="25" CornerRadius="20" WidthRequest="300" HasShadow="True">
                 <VerticalStackLayout Spacing="15">
-                    <Entry x:Name="EmailEntry" Placeholder="E-posta" BackgroundColor="#fff0f5" />
-                    <Entry x:Name="PasswordEntry" Placeholder="Şifre" IsPassword="True" BackgroundColor="#fff0f5" />
+                    <Entry x:Name="EmailEntry" Placeholder="E-posta" BackgroundColor="#34495e" />
+                    <Entry x:Name="PasswordEntry" Placeholder="Şifre" IsPassword="True" BackgroundColor="#34495e" />
 
                     <Button Text="Giriş Yap" Clicked="OnLoginClicked"
-                            BackgroundColor="#d4af37" TextColor="White"
+                            BackgroundColor="#d4af37" TextColor="Black"
                             CornerRadius="10" FontAttributes="Bold"/>
                 </VerticalStackLayout>
             </Frame>
 
             <Label Text="Hesabınız yok mu?" HorizontalOptions="Center" TextColor="#a47148" />
             <Button Text="Kayıt Ol" Clicked="OnNavigateToRegister"
-                    BackgroundColor="#c38184" TextColor="White"
+                    BackgroundColor="#c38184" TextColor="Black"
                     WidthRequest="150" CornerRadius="10"/>
         </VerticalStackLayout>
     </ScrollView>
