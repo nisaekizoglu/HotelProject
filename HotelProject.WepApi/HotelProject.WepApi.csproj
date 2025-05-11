@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HotelProject.BusinessLayer\HotelProject.BusinessLayer.csproj" />
-    <ProjectReference Include="..\HotelProject.WebUI\HotelProject.WebUI.csproj" />
   </ItemGroup>
 
 </Project>

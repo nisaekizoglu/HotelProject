@@ -17,20 +17,21 @@ namespace HotelProjectMauiApp.Pages
 
             if (string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(password))
             {
-                await DisplayAlert("Hata", "Lütfen tüm alanları doldurun.", "Tamam");
+                await DisplayAlert("Hata", "LÃ¼tfen tÃ¼m alanlarÄ± doldurun.", "Tamam");
                 return;
             }
 
-            // Gerçek kimlik doğrulama işlemi burada yapılabilir
-            // Şimdilik doğrudan başarılı varsayıyoruz
-            await DisplayAlert("Başarılı", "Giriş yapıldı!", "Tamam");
+            // GerÃ§ek kimlik doÄŸrulama iÅŸlemi burada yapÄ±labilir
+            // Åimdilik doÄŸrudan baÅŸarÄ±lÄ± varsayÄ±yoruz
+            await DisplayAlert("BaÅŸarÄ±lÄ±", "GiriÅŸ yapÄ±ldÄ±!", "Tamam");
 
-            await Navigation.PushAsync(new MainPage());
+            // MainPage'e yÃ¶nlendir ve LoginPage'i yÄ±ÄŸÄ±ndan kaldÄ±r
+            Application.Current.MainPage = new NavigationPage(new MainPage());
         }
 
         private async void OnNavigateToRegister(object sender, EventArgs e)
         {
-            // Kayıt sayfasına yönlendirme
+            // KayÄ±t sayfasÄ±na yÃ¶nlendirme
             await Navigation.PushAsync(new RegisterPage());
         }
     }

@@ -1,61 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HotelProjectMauiApp.Pages.MainPage"
-             BackgroundColor="White">
-
+             BackgroundColor="#F6F7FB">
     <ScrollView>
-        <StackLayout Padding="20" Spacing="25">
-
-            <!-- Otel Başlığı -->
-            <Label Text="Hotel Mellow"
-                   FontSize="32"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center" />
-
-            <Label Text="Your Gateway To Serenity"
-                   FontSize="20"
-                   HorizontalOptions="Center"
-                   TextColor="Gray"/>
-
-            <!-- Görsel -->
-            <Image Source="hotel_room.jpg" Aspect="AspectFill" HeightRequest="200" />
-
-            <!-- Rezervasyon Kutusu -->
-            <Frame CornerRadius="20" Padding="20" BackgroundColor="#f4f1ee" HasShadow="True">
-
-                <StackLayout Spacing="15">
-                    <Label Text="Check Availability"
-                           FontSize="22"
-                           FontAttributes="Bold" />
-
-                    <!--<DatePicker x:Name="CheckInDate" 
-                                Date="{x:Static sys:DateTime.Now}" 
-                                Format="D"
-                                />
-                    <DatePicker x:Name="CheckOutDate" 
-                                Date="{x:Static sys:DateTime.Now}" 
-                                Format="D"
-                                />-->
-
-                    <Entry x:Name="RoomCount" Placeholder="Rooms" Keyboard="Numeric" />
-                    <Entry x:Name="GuestCount" Placeholder="Guests" Keyboard="Numeric" />
-
-                    <Button Text="Check Availability"
-                            BackgroundColor="#E1D5C9"
-                            TextColor="Black"
-                            Clicked="OnCheckAvailabilityClicked"/>
-
-                    <!--<Button Text="Explore Rooms"
-        BackgroundColor="#F6F1EB"
-        TextColor="Black"
-        CornerRadius="10"
-        Clicked="OnExploreRoomsClicked"/>-->
-
+        <VerticalStackLayout Spacing="36" Padding="0,0,0,32">
+            <!-- HERO SECTION -->
+            <Grid HeightRequest="260">
+                <Image Source="hero_4.jpg" Aspect="AspectFill" />
+                <BoxView>
+                    <BoxView.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                            <GradientStop Color="#3A3A3A99" Offset="0.0" />
+                            <GradientStop Color="#3A3A3A33" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </BoxView.Background>
+                </BoxView>
+                <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+                    <Label Text="Sogo Hotel" FontSize="40" FontAttributes="Bold" TextColor="White" HorizontalOptions="Center" FontFamily="OpenSans" />
+                    <Label Text="A Best Place To Stay. Reserve Now!" FontSize="18" TextColor="#F6F7FB" HorizontalOptions="Center" FontFamily="OpenSans" />
                 </StackLayout>
+            </Grid>
 
+            <!-- ROOMS SECTION -->
+            <StackLayout Padding="24,0" Spacing="18">
+                <Label Text="Rooms" FontSize="26" FontAttributes="Bold" TextColor="#232946" FontFamily="OpenSans" />
+                <CollectionView ItemsSource="{Binding Rooms}" ItemsLayout="HorizontalList" HeightRequest="250">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame WidthRequest="180" Padding="0" CornerRadius="24" HasShadow="True" BackgroundColor="White" Margin="0,0,12,0" BorderColor="#E0E3EB">
+                                <Grid>
+                                    <Image Source="{Binding Image}" HeightRequest="120" Aspect="AspectFill" Margin="0" />
+                                    <Frame BackgroundColor="#232946" Padding="6,2" CornerRadius="12" HorizontalOptions="End" VerticalOptions="Start" Margin="8" HasShadow="False">
+                                        <Label Text="{Binding Price}" FontSize="12" TextColor="White" FontFamily="OpenSans" />
+                                    </Frame>
+                                </Grid>
+                                <VerticalStackLayout Padding="12,8,12,16" Spacing="4">
+                                    <Label Text="{Binding Name}" FontSize="17" FontAttributes="Bold" TextColor="#232946" HorizontalOptions="Center" FontFamily="OpenSans" />
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- RESERVATION FORM SECTION -->
+            <Frame Margin="24,0" Padding="24" CornerRadius="24" BackgroundColor="White" HasShadow="True" BorderColor="#E0E3EB">
+                <VerticalStackLayout Spacing="16">
+                    <Label Text="Reservation Form" FontSize="22" FontAttributes="Bold" TextColor="#232946" FontFamily="OpenSans" />
+                    <Entry Placeholder="Name" BackgroundColor="#F6F7FB" HeightRequest="44" FontFamily="OpenSans" />
+                    <Entry Placeholder="Phone" Keyboard="Telephone" BackgroundColor="#F6F7FB" HeightRequest="44" FontFamily="OpenSans" />
+                    <Entry Placeholder="Email" Keyboard="Email" BackgroundColor="#F6F7FB" HeightRequest="44" FontFamily="OpenSans" />
+                    <HorizontalStackLayout Spacing="12">
+                        <VerticalStackLayout WidthRequest="140">
+                            <Label Text="Check In" FontSize="13" TextColor="#888" />
+                            <DatePicker BackgroundColor="#F6F7FB" HeightRequest="44" FontFamily="OpenSans" />
+                        </VerticalStackLayout>
+                        <VerticalStackLayout WidthRequest="140">
+                            <Label Text="Check Out" FontSize="13" TextColor="#888" />
+                            <DatePicker BackgroundColor="#F6F7FB" HeightRequest="44" FontFamily="OpenSans" />
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout Spacing="12">
+                        <VerticalStackLayout WidthRequest="140">
+                            <Label Text="Adults" FontSize="13" TextColor="#888" />
+                            <Picker ItemsSource="{Binding AdultsOptions}" BackgroundColor="#F6F7FB" HeightRequest="44" FontFamily="OpenSans" />
+                        </VerticalStackLayout>
+                        <VerticalStackLayout WidthRequest="140">
+                            <Label Text="Children" FontSize="13" TextColor="#888" />
+                            <Picker ItemsSource="{Binding ChildrenOptions}" BackgroundColor="#F6F7FB" HeightRequest="44" FontFamily="OpenSans" />
+                        </VerticalStackLayout>
+                    </HorizontalStackLayout>
+                    <Editor Placeholder="Notes" AutoSize="TextChanges" HeightRequest="60" BackgroundColor="#F6F7FB" FontFamily="OpenSans" />
+                    <Button Text="Reserve Now" BackgroundColor="#232946" TextColor="White" CornerRadius="16" FontAttributes="Bold" FontFamily="OpenSans" HeightRequest="48" />
+                </VerticalStackLayout>
             </Frame>
 
-        </StackLayout>
-    </ScrollView>
+            <!-- TESTIMONIALS SECTION -->
+            <StackLayout Padding="24,0" Spacing="16">
+                <Label Text="People Says" FontSize="22" FontAttributes="Bold" TextColor="#232946" FontFamily="OpenSans" />
+                <CollectionView ItemsSource="{Binding Testimonials}" ItemsLayout="HorizontalList" HeightRequest="180">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame WidthRequest="220" Padding="18" CornerRadius="20" BackgroundColor="White" HasShadow="True" BorderColor="#E0E3EB" Margin="0,0,12,0">
+                                <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                                    <Frame Padding="0" CornerRadius="24" HeightRequest="48" WidthRequest="48" IsClippedToBounds="True" HasShadow="False" BackgroundColor="#F6F7FB">
+                                        <Image Source="{Binding Image}" HeightRequest="48" WidthRequest="48" Aspect="AspectFill" />
+                                    </Frame>
+                                    <Label Text="{Binding Text}" FontSize="13" TextColor="#444" FontFamily="OpenSans" />
+                                    <Label Text="{Binding Author}" FontSize="15" FontAttributes="Bold" TextColor="#232946" FontFamily="OpenSans" />
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
 
+            <!-- FOOTER SECTION -->
+            <StackLayout Padding="24,0" Spacing="6" BackgroundColor="#232946" >
+                <Label Text="Address: 198 West 21th Street, Suite 721 New York NY 10016" FontSize="13" TextColor="#F6F7FB" FontFamily="OpenSans" />
+                <Label Text="Phone: (+1) 435 3533" FontSize="13" TextColor="#F6F7FB" FontFamily="OpenSans" />
+                <Label Text="Email: info@domain.com" FontSize="13" TextColor="#F6F7FB" FontFamily="OpenSans" />
+                <HorizontalStackLayout Spacing="20" HorizontalOptions="Center" Margin="0,8,0,0">
+                    <Image Source="fa_facebook.png" HeightRequest="28" WidthRequest="28" />
+                    <Image Source="fa_twitter.png" HeightRequest="28" WidthRequest="28" />
+                    <Image Source="fa_linkedin.png" HeightRequest="28" WidthRequest="28" />
+                </HorizontalStackLayout>
+                <Label Text="© 2024 Sogo Hotel. All rights reserved." FontSize="11" TextColor="#B8C1EC" HorizontalOptions="Center" FontFamily="OpenSans" />
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
